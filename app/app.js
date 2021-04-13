@@ -1,6 +1,10 @@
 "USE strict";
 //require은 불러오는 것
-const express = require("express");
+const express = require('express');
+const path = require('path');
+const bodypaser = require('body-parser');
+const cors = require('passport');
+const mongoose = require('mongoose');
 const app =express();
 const home =require("./src/routes/home")
 
